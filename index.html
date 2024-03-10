@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woo-Who Weather</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <!-- Image Background  -->
+    <img src="sky.jpg" alt="sky pic">
+
+    <!-- Main Title  -->
+    <div id="title">
+        <p>Woo-Who Weather</p>
+    </div>
+
+    <!-- Floating Alert of Errors  -->
+    <div id="alert"></div>
+
+    <!-- Main Container  -->
+    <div id="main-container">
+
+        <!-- City Container -->
+        <div class="city-box" id="sample">
+
+            <!-- Close window of this city -->
+            <p class="cross">x</p>
+
+            <!-- Today's weather  -->
+            <div class="weather-box">
+                <p class="city-title">Loading City...</p>
+                <p class="current-temp">...</p>
+                <p class="wish">Loading...</p>
+            </div>
+
+            <!-- Forecast  -->
+            <div class="forecast-box">
+                <div class="forecast-weather">
+                    <p class="date">Today</p>
+                    <p class="temp-today">...</p>
+                </div>
+                <div class="forecast-weather">
+                    <p class="date">Tmr</p>
+                    <p class="temp">...</p>
+                </div>
+                <div class="forecast-weather">
+                    <p class="date">Loading...</p>
+                    <p class="temp">...</p>
+                </div>
+                <div class="forecast-weather">
+                    <p class="date">Loading...</p>
+                    <p class="temp">...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container of Add City Button  -->
+    <div id="add-container">
+        <button id="add-city">Add City</button>
+    </div>
+
+    <!-- Container of Input  -->
+    <div id="new-city-container">
+        <input type="text" id="new-city-input" placeholder="Any city of the world!">
+        <button id="add">Add</button>
+    </div>
+
+
+</body>
+
+</html>
